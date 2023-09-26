@@ -1,0 +1,82 @@
+.nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(144, 180, 156);
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    }
+    .nav-link{
+        color: black;
+        font-size: large;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+#card{
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 350px;
+    box-shadow:  5px 10px 50px rgb(144, 180, 156);
+    display: inline-block;
+}
+.imcard{
+    float: right;
+    height: 350px;
+    width: 50% ;
+    float: left;
+}
+.cardText{
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: 350px;
+}
+@media(max-width: 500px){
+    #card{
+        display:flex;
+        flex-direction: column;
+    }
+}
+.social-icon {
+    font-size: 50px;
+    color: rgb(144, 180, 156);
+    margin: 10px;
+    transition: color 0.3s;   
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  .social-media-list{
+    display: inline-flex;
+    font-size: 20px;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+  }
+  *{
+    font-family: 'poppins' , sans-serif;
+    }
+    @keyframes slideLeft {
+        from {
+          opacity: 0;
+          transform: translateX(100px); /* Inizia a destra */
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0); /* Termina al centro */
+        }
+      }
+      
+      /* Applica l'animazione all'elemento che vuoi far traslare */
+      .anim {
+        animation: slideLeft 1s ease;
+      }
+      

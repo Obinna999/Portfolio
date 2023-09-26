@@ -1,0 +1,61 @@
+.nav{
+    margin-top: 20px;
+    background-color: rgb(144, 180, 156);
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    }
+    .nav-link{
+        color: black;
+        font-size: large;
+    }
+
+.social-icon {
+font-size: 50px;
+color: rgb(144, 180, 156);
+margin: 10px;
+ transition: color 0.3s;
+}
+.social-icon:hover {
+color: #007bff;
+}
+.social-media-list{
+display: inline-flex;
+font-size: 20px;
+justify-content: center;
+list-style-type: none;
+align-items: center;
+display: flex;
+}
+*{
+font-family: 'poppins' , sans-serif;
+}
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.intro{
+  align-items: center;
+  padding: 20px;
+}
+img {
+  float: right;
+  border-radius: 50%;
+}
+.anim {
+  animation: fadeInUp 1s ease;
+}
+
+/* Animazione per le stringhe introduttive */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

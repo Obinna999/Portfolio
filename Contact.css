@@ -1,0 +1,90 @@
+    .nav{
+    margin-top: 20px;
+    background-color: rgb(144, 180, 156);
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    }
+    .nav-link{
+      color: black;
+      font-size: large;
+  }
+  *{
+    font-family: 'poppins' , sans-serif;
+    }
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:white; }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgb(144, 180, 156);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 100px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+.myAddress{
+  justify-content: center;
+}
+.social-icon {
+  font-size: 50px;
+  color: rgb(144, 180, 156);
+  margin: 10px;
+  transition: color 0.3s;
+  text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  .social-media-list{
+    display: inline-flex;
+    font-size: 20px;
+    list-style-type: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.myAddress{
+  max-width:420px; margin:50px auto;
+  text-align: center;
+}
+@media only screen and (max-width: 420px) and (max-width:920) {
+  body {
+    background-color: lightblue;
+  }
+}
